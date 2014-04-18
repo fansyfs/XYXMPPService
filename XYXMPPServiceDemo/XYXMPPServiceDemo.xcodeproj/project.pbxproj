@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E845E9761901091100196822 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E845E9751901091100196822 /* Foundation.framework */; };
+		E845E9781901091100196822 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E845E9771901091100196822 /* CoreGraphics.framework */; };
+		E845E97A1901091100196822 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E845E9791901091100196822 /* UIKit.framework */; };
+		E845E9801901091100196822 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E845E97E1901091100196822 /* InfoPlist.strings */; };
+		E845E9821901091100196822 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E845E9811901091100196822 /* main.m */; };
+		E845E9861901091100196822 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E845E9851901091100196822 /* AppDelegate.m */; };
+		E845E9891901091100196822 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E845E9871901091100196822 /* Main_iPhone.storyboard */; };
+		E845E98C1901091100196822 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E845E98A1901091100196822 /* Main_iPad.storyboard */; };
+		E845E98F1901091100196822 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E845E98E1901091100196822 /* ViewController.m */; };
+		E845E9911901091100196822 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E845E9901901091100196822 /* Images.xcassets */; };
+		E845E9981901091100196822 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E845E9971901091100196822 /* XCTest.framework */; };
+		E845E9991901091100196822 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E845E9751901091100196822 /* Foundation.framework */; };
+		E845E99A1901091100196822 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E845E9791901091100196822 /* UIKit.framework */; };
+		E845E9A21901091100196822 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E845E9A01901091100196822 /* InfoPlist.strings */; };
+		E845E9A41901091100196822 /* XYXMPPServiceDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E845E9A31901091100196822 /* XYXMPPServiceDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E845E99B1901091100196822 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E845E96A1901091100196822 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E845E9711901091100196822;
+			remoteInfo = XYXMPPServiceDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E845E9721901091100196822 /* XYXMPPServiceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYXMPPServiceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E845E9751901091100196822 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E845E9771901091100196822 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E845E9791901091100196822 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E845E97D1901091100196822 /* XYXMPPServiceDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XYXMPPServiceDemo-Info.plist"; sourceTree = "<group>"; };
+		E845E97F1901091100196822 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E845E9811901091100196822 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E845E9831901091100196822 /* XYXMPPServiceDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XYXMPPServiceDemo-Prefix.pch"; sourceTree = "<group>"; };
+		E845E9841901091100196822 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E845E9851901091100196822 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E845E9881901091100196822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		E845E98B1901091100196822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		E845E98D1901091100196822 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E845E98E1901091100196822 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E845E9901901091100196822 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E845E9961901091100196822 /* XYXMPPServiceDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYXMPPServiceDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E845E9971901091100196822 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E845E99F1901091100196822 /* XYXMPPServiceDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XYXMPPServiceDemoTests-Info.plist"; sourceTree = "<group>"; };
+		E845E9A11901091100196822 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E845E9A31901091100196822 /* XYXMPPServiceDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYXMPPServiceDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E845E96F1901091100196822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E845E9781901091100196822 /* CoreGraphics.framework in Frameworks */,
+				E845E97A1901091100196822 /* UIKit.framework in Frameworks */,
+				E845E9761901091100196822 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E845E9931901091100196822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E845E9981901091100196822 /* XCTest.framework in Frameworks */,
+				E845E99A1901091100196822 /* UIKit.framework in Frameworks */,
+				E845E9991901091100196822 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E845E9691901091100196822 = {
+			isa = PBXGroup;
+			children = (
+				E845E97B1901091100196822 /* XYXMPPServiceDemo */,
+				E845E99D1901091100196822 /* XYXMPPServiceDemoTests */,
+				E845E9741901091100196822 /* Frameworks */,
+				E845E9731901091100196822 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E845E9731901091100196822 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E845E9721901091100196822 /* XYXMPPServiceDemo.app */,
+				E845E9961901091100196822 /* XYXMPPServiceDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E845E9741901091100196822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E845E9751901091100196822 /* Foundation.framework */,
+				E845E9771901091100196822 /* CoreGraphics.framework */,
+				E845E9791901091100196822 /* UIKit.framework */,
+				E845E9971901091100196822 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E845E97B1901091100196822 /* XYXMPPServiceDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E845E9841901091100196822 /* AppDelegate.h */,
+				E845E9851901091100196822 /* AppDelegate.m */,
+				E845E9871901091100196822 /* Main_iPhone.storyboard */,
+				E845E98A1901091100196822 /* Main_iPad.storyboard */,
+				E845E98D1901091100196822 /* ViewController.h */,
+				E845E98E1901091100196822 /* ViewController.m */,
+				E845E9901901091100196822 /* Images.xcassets */,
+				E845E97C1901091100196822 /* Supporting Files */,
+			);
+			path = XYXMPPServiceDemo;
+			sourceTree = "<group>";
+		};
+		E845E97C1901091100196822 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E845E97D1901091100196822 /* XYXMPPServiceDemo-Info.plist */,
+				E845E97E1901091100196822 /* InfoPlist.strings */,
+				E845E9811901091100196822 /* main.m */,
+				E845E9831901091100196822 /* XYXMPPServiceDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E845E99D1901091100196822 /* XYXMPPServiceDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E845E9A31901091100196822 /* XYXMPPServiceDemoTests.m */,
+				E845E99E1901091100196822 /* Supporting Files */,
+			);
+			path = XYXMPPServiceDemoTests;
+			sourceTree = "<group>";
+		};
+		E845E99E1901091100196822 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E845E99F1901091100196822 /* XYXMPPServiceDemoTests-Info.plist */,
+				E845E9A01901091100196822 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E845E9711901091100196822 /* XYXMPPServiceDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E845E9A71901091100196822 /* Build configuration list for PBXNativeTarget "XYXMPPServiceDemo" */;
+			buildPhases = (
+				E845E96E1901091100196822 /* Sources */,
+				E845E96F1901091100196822 /* Frameworks */,
+				E845E9701901091100196822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYXMPPServiceDemo;
+			productName = XYXMPPServiceDemo;
+			productReference = E845E9721901091100196822 /* XYXMPPServiceDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E845E9951901091100196822 /* XYXMPPServiceDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E845E9AA1901091100196822 /* Build configuration list for PBXNativeTarget "XYXMPPServiceDemoTests" */;
+			buildPhases = (
+				E845E9921901091100196822 /* Sources */,
+				E845E9931901091100196822 /* Frameworks */,
+				E845E9941901091100196822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E845E99C1901091100196822 /* PBXTargetDependency */,
+			);
+			name = XYXMPPServiceDemoTests;
+			productName = XYXMPPServiceDemoTests;
+			productReference = E845E9961901091100196822 /* XYXMPPServiceDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E845E96A1901091100196822 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "TelenavSoftware Inc.";
+				TargetAttributes = {
+					E845E9951901091100196822 = {
+						TestTargetID = E845E9711901091100196822;
+					};
+				};
+			};
+			buildConfigurationList = E845E96D1901091100196822 /* Build configuration list for PBXProject "XYXMPPServiceDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E845E9691901091100196822;
+			productRefGroup = E845E9731901091100196822 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E845E9711901091100196822 /* XYXMPPServiceDemo */,
+				E845E9951901091100196822 /* XYXMPPServiceDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E845E9701901091100196822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E845E98C1901091100196822 /* Main_iPad.storyboard in Resources */,
+				E845E9911901091100196822 /* Images.xcassets in Resources */,
+				E845E9891901091100196822 /* Main_iPhone.storyboard in Resources */,
+				E845E9801901091100196822 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E845E9941901091100196822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E845E9A21901091100196822 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E845E96E1901091100196822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E845E98F1901091100196822 /* ViewController.m in Sources */,
+				E845E9861901091100196822 /* AppDelegate.m in Sources */,
+				E845E9821901091100196822 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E845E9921901091100196822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E845E9A41901091100196822 /* XYXMPPServiceDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E845E99C1901091100196822 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E845E9711901091100196822 /* XYXMPPServiceDemo */;
+			targetProxy = E845E99B1901091100196822 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E845E97E1901091100196822 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E845E97F1901091100196822 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E845E9871901091100196822 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E845E9881901091100196822 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E845E98A1901091100196822 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E845E98B1901091100196822 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E845E9A01901091100196822 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E845E9A11901091100196822 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E845E9A51901091100196822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E845E9A61901091100196822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E845E9A81901091100196822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XYXMPPServiceDemo/XYXMPPServiceDemo-Prefix.pch";
+				INFOPLIST_FILE = "XYXMPPServiceDemo/XYXMPPServiceDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E845E9A91901091100196822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XYXMPPServiceDemo/XYXMPPServiceDemo-Prefix.pch";
+				INFOPLIST_FILE = "XYXMPPServiceDemo/XYXMPPServiceDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E845E9AB1901091100196822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XYXMPPServiceDemo.app/XYXMPPServiceDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XYXMPPServiceDemo/XYXMPPServiceDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "XYXMPPServiceDemoTests/XYXMPPServiceDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E845E9AC1901091100196822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XYXMPPServiceDemo.app/XYXMPPServiceDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XYXMPPServiceDemo/XYXMPPServiceDemo-Prefix.pch";
+				INFOPLIST_FILE = "XYXMPPServiceDemoTests/XYXMPPServiceDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E845E96D1901091100196822 /* Build configuration list for PBXProject "XYXMPPServiceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E845E9A51901091100196822 /* Debug */,
+				E845E9A61901091100196822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E845E9A71901091100196822 /* Build configuration list for PBXNativeTarget "XYXMPPServiceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E845E9A81901091100196822 /* Debug */,
+				E845E9A91901091100196822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E845E9AA1901091100196822 /* Build configuration list for PBXNativeTarget "XYXMPPServiceDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E845E9AB1901091100196822 /* Debug */,
+				E845E9AC1901091100196822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E845E96A1901091100196822 /* Project object */;
+}
