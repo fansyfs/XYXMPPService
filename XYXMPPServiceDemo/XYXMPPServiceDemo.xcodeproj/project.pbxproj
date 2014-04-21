@@ -286,6 +286,10 @@
 		E845EDCE19010ED800196822 /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E845EB0719010ED600196822 /* libidn.a */; };
 		E845EF7319010F1300196822 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E845EF7219010F1300196822 /* libxml2.dylib */; };
 		E845EF7819011EF000196822 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E845EF7719011EF000196822 /* libresolv.dylib */; };
+		E8FCE0A61904BAD5005F4E02 /* XYMessageEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FCE0A51904BAD5005F4E02 /* XYMessageEntity.m */; };
+		E8FCE0A71904BAD5005F4E02 /* XYMessageEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FCE0A51904BAD5005F4E02 /* XYMessageEntity.m */; };
+		E8FCE0AA1904C829005F4E02 /* XYMessageModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8FCE0A81904C829005F4E02 /* XYMessageModel.xcdatamodeld */; };
+		E8FCE0AB1904C829005F4E02 /* XYMessageModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8FCE0A81904C829005F4E02 /* XYMessageModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -592,6 +596,9 @@
 		E845ECC219010ED800196822 /* XMPPFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPFramework.h; sourceTree = "<group>"; };
 		E845EF7219010F1300196822 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		E845EF7719011EF000196822 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
+		E8FCE0A41904BAD5005F4E02 /* XYMessageEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYMessageEntity.h; sourceTree = "<group>"; };
+		E8FCE0A51904BAD5005F4E02 /* XYMessageEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYMessageEntity.m; sourceTree = "<group>"; };
+		E8FCE0A91904C829005F4E02 /* XYMessageModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XYMessageModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -705,6 +712,9 @@
 			children = (
 				E845E9AE19010EA100196822 /* XYXMPPService.h */,
 				E845E9AF19010EA100196822 /* XYXMPPService.m */,
+				E8FCE0A41904BAD5005F4E02 /* XYMessageEntity.h */,
+				E8FCE0A51904BAD5005F4E02 /* XYMessageEntity.m */,
+				E8FCE0A81904C829005F4E02 /* XYMessageModel.xcdatamodeld */,
 			);
 			path = XYXMPPService;
 			sourceTree = "<group>";
@@ -1692,6 +1702,7 @@
 				E845ED7719010ED800196822 /* XMPPMessageArchiving_Contact_CoreDataObject.m in Sources */,
 				E845ED3D19010ED800196822 /* XMPPvCardCoreDataStorageObject.m in Sources */,
 				E845EDA119010ED800196822 /* NSXMLElement+XEP_0335.m in Sources */,
+				E8FCE0AA1904C829005F4E02 /* XYMessageModel.xcdatamodeld in Sources */,
 				E845ED0919010ED800196822 /* XMPPUserMemoryStorageObject.m in Sources */,
 				E845ED9F19010ED800196822 /* XMPPMessage+XEP_0333.m in Sources */,
 				E845ED8719010ED800196822 /* XMPPMessageDeliveryReceipts.m in Sources */,
@@ -1745,6 +1756,7 @@
 				E845ED4919010ED800196822 /* XMPPvCardTempEmail.m in Sources */,
 				E845ED9519010ED800196822 /* XEP_0223.m in Sources */,
 				E845ED2D19010ED800196822 /* XMPPRoomMessageMemoryStorageObject.m in Sources */,
+				E8FCE0A61904BAD5005F4E02 /* XYMessageEntity.m in Sources */,
 				E845EDB919010ED800196822 /* DDLog.m in Sources */,
 				E845EDBB19010ED800196822 /* DDTTYLogger.m in Sources */,
 				E845ED9719010ED800196822 /* XMPPAttentionModule.m in Sources */,
@@ -1787,7 +1799,9 @@
 				E845ED1819010ED800196822 /* XMPPLastActivity.m in Sources */,
 				E845ED7219010ED800196822 /* XMPPCapsResourceCoreDataStorageObject.m in Sources */,
 				E845ED0619010ED800196822 /* XMPPResourceMemoryStorageObject.m in Sources */,
+				E8FCE0A71904BAD5005F4E02 /* XYMessageEntity.m in Sources */,
 				E845EDAA19010ED800196822 /* RFImageToDataTransformer.m in Sources */,
+				E8FCE0AB1904C829005F4E02 /* XYMessageModel.xcdatamodeld in Sources */,
 				E845ECF619010ED800196822 /* XMPPGoogleSharedStatus.m in Sources */,
 				E845ED2419010ED800196822 /* XMPPRoomHybrid.xcdatamodeld in Sources */,
 				E845ED0C19010ED800196822 /* XMPPRoster.m in Sources */,
@@ -2118,6 +2132,7 @@
 				E845E9A91901091100196822 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E845E9AA1901091100196822 /* Build configuration list for PBXNativeTarget "XYXMPPServiceDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -2126,6 +2141,7 @@
 				E845E9AC1901091100196822 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -2167,6 +2183,16 @@
 			);
 			currentVersion = E845EA9819010ED600196822 /* XMPPMessageArchiving.xcdatamodel */;
 			path = XMPPMessageArchiving.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		E8FCE0A81904C829005F4E02 /* XYMessageModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E8FCE0A91904C829005F4E02 /* XYMessageModel.xcdatamodel */,
+			);
+			currentVersion = E8FCE0A91904C829005F4E02 /* XYMessageModel.xcdatamodel */;
+			path = XYMessageModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

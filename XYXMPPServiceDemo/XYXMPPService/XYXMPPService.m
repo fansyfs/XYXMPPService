@@ -32,8 +32,7 @@ static XYXMPPService *sharedXMPPService = nil;
     self = [super init];
     if(self)
     {
-        [self setupStream];
-        [self initCoreData];
+
     }
     return self;
 }
@@ -66,7 +65,7 @@ static XYXMPPService *sharedXMPPService = nil;
 	if (managedObjectModel)
         return managedObjectModel;
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"TSMessageModel" ofType:@"momd"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"XYMessageModel" ofType:@"momd"];
     NSURL *momURL = [NSURL fileURLWithPath:path];
     managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:momURL];
     
@@ -78,10 +77,10 @@ static XYXMPPService *sharedXMPPService = nil;
     if (persistentStoreCoordinator)
         return persistentStoreCoordinator;
     
-	NSString *storePath = [[self documentPath] stringByAppendingString:@"/msg/db/"];
-    NSString *imgPath = [[self documentPath] stringByAppendingString:@"/msg/image/"];
-    NSString *audioPath = [[self documentPath] stringByAppendingString:@"/msg/audio/"];
-    NSString *groupAudioPath = [[self documentPath] stringByAppendingString:@"/msg/groupaudio/"];
+	NSString *storePath = [[self documentPath] stringByAppendingString:@"/xymessage/db/"];
+    NSString *imgPath = [[self documentPath] stringByAppendingString:@"/xymessage/image/"];
+    NSString *audioPath = [[self documentPath] stringByAppendingString:@"/xymessage/audio/"];
+    NSString *groupAudioPath = [[self documentPath] stringByAppendingString:@"/xymessage/groupaudio/"];
     
     NSFileManager *fileManager = [NSFileManager defaultManager];
 	if(![fileManager fileExistsAtPath:storePath])
@@ -334,6 +333,9 @@ static XYXMPPService *sharedXMPPService = nil;
     self.xmppHost = host;
     self.xmppPort = port;
     self.myJID = jid;
+    
+    [self setupStream];
+    [self initCoreData];
 }
 
 - (BOOL)connect
